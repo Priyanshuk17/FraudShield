@@ -1,0 +1,70 @@
+{
+  "dataset": {
+    "rows": 284807,
+    "columns": 31,
+    "fraud": 492,
+    "legitimate": 284315,
+    "fraud_percent": 0.1727,
+    "missing_values": 0,
+    "duplicates": 1081
+  },
+  "selected_model": "Random Forest",
+  "test_results": {
+    "Logistic Regression": {
+      "accuracy": 0.9774545190720622,
+      "precision": 0.06515151515151515,
+      "recall": 0.9052631578947369,
+      "f1": 0.1215547703180212,
+      "roc_auc": 0.9824872193565785,
+      "pr_auc": 0.691891704535984,
+      "confusion_matrix": {
+        "tn": 53804,
+        "fp": 1234,
+        "fn": 9,
+        "tp": 86
+      }
+    },
+    "Decision Tree": {
+      "accuracy": 0.9875573612899715,
+      "precision": 0.10335570469798658,
+      "recall": 0.8105263157894737,
+      "f1": 0.18333333333333332,
+      "roc_auc": 0.9149403952484503,
+      "pr_auc": 0.4709769835649441,
+      "confusion_matrix": {
+        "tn": 54370,
+        "fp": 668,
+        "fn": 18,
+        "tp": 77
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9993470335370831,
+      "precision": 0.8554216867469879,
+      "recall": 0.7473684210526316,
+      "f1": 0.797752808988764,
+      "roc_auc": 0.967889649447941,
+      "pr_auc": 0.7917300792058447,
+      "confusion_matrix": {
+        "tn": 55026,
+        "fp": 12,
+        "fn": 24,
+        "tp": 71
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9974606859775452,
+      "precision": 0.38578680203045684,
+      "recall": 0.8,
+      "f1": 0.5205479452054794,
+      "roc_auc": 0.9688082492287625,
+      "pr_auc": 0.7346917688797996,
+      "confusion_matrix": {
+        "tn": 54917,
+        "fp": 121,
+        "fn": 19,
+        "tp": 76
+      }
+    }
+  }
+}
